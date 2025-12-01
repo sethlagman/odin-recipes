@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+.title {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.recipe-list {
+    height: 200px;
+    padding: 60px 0px;
+    text-align: center;
+    width: 500px;
+    margin: 150px auto;
+    border: 1px solid black;
+}
+
+.information {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recipe-list ul {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+.desc, .ingredients, .steps {
+    margin: 20px;
+}
+
